@@ -1,18 +1,19 @@
-## Getting Started
+## Explorando Padrões de Projetos na Prática com Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+* Projeto proposto no Santander Bootcamp 2023 - Backend Java.
 
-## Folder Structure
+### Padrão de projeto Command:
+* Padrão de projeto comportamental que converte solicitações ou operações simples em objetos.
+* É identificado por métodos comportamentais em um tipo abstrato/interface que chama um método em uma implementação de um tipo abstrato/interface diferente que foi encapsulado pela implementação do comando durante a sua criação.
+* As classes do Command geralmente são ações específicas.
 
-The workspace contains two folders by default, where:
+### Sobre o exemplo implementado:
+* O Cliente faz um Pedido e define o receptor como sendo o Chef.
+* O pedido é enviado ao Garçom, que saberá quem deve executar este pedido.
+* Quando quem invoca o pedido é executado, o método execute de Pedido é executado no receptor (Chef), que recebe o comando para preparar a refeição ou a sobremesa.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+🛠️ Tecnologia
+- Java
+  
+- ## 📧 Contato 
+anachaubertf@gmail.com
